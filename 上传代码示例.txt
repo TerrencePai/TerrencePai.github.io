@@ -1,3 +1,0 @@
-git add .
-git commit -m "Ìá½»test1.html"
-git push -u origin master
