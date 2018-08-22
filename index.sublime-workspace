@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-position\tproperty"
+			],
+			[
+				"b",
+				"background-repeat\tproperty"
+			],
+			[
+				"ba",
+				"background-attachment\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"hhe",
+				"height\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
 				"bc",
 				"background-color\tproperty"
 			],
@@ -72,10 +104,6 @@
 				"border-color\tproperty"
 			],
 			[
-				"b",
-				"border\tproperty"
-			],
-			[
 				"max",
 				"max-width\tproperty"
 			],
@@ -90,10 +118,6 @@
 			[
 				"wi",
 				"width\tproperty"
-			],
-			[
-				"ba",
-				"background\tproperty"
 			],
 			[
 				"oncli",
@@ -112,38 +136,33 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/白阿文/Desktop/(1).css",
-			"settings":
-			{
-				"buffer_size": 74974,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/白阿文/Desktop/js.html",
-			"settings":
-			{
-				"buffer_size": 1074,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1395,
+				"buffer_size": 2327,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/.git/description",
+			"file": "HTML文件/message.html",
 			"settings":
 			{
-				"buffer_size": 73,
-				"line_ending": "Unix"
+				"buffer_size": 1308,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>亲人简介</title>\n\t<style type=\"text/css\">\n\t\tfigure{\n\t\t\theight: 50px;\n\t\t\twidth: 33%;\n\t\t}\n\t</style>\n</head>\n<body>\n\n<figure>\n  <figcaption>妹妹白阿香</figcaption>\n  <img src=\"../picture/sister1.jpg\" alt=\"妹妹的照片\"  /></figure>\n  <figure>\n  <figcaption>妹妹白阿香</figcaption>\n  <img src=\"../picture/sister2.jpg\" alt=\"妹妹的照片\"  /></figure>\n  <figure>\n  <figcaption>妹妹白阿香</figcaption>\n  <!-- <img s=- c=\"../picture/sister3.jpg\" alt=\"妹妹的照片\" /></figure> -->\n</body>\n</html>",
+			"file": "HTML文件/myfamily.html",
+			"file_size": 566,
+			"file_write_time": 131794079092407186,
+			"settings":
+			{
+				"buffer_size": 486,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -187,10 +206,16 @@
 	},
 	"expanded_folders":
 	[
-		"/E/个人网站设计"
+		"/E/个人网站设计",
+		"/E/个人网站设计/css文件",
+		"/E/个人网站设计/HTML文件"
 	],
 	"file_history":
 	[
+		"/E/个人网站设计/HTML文件/myfamily.html",
+		"/C/Users/白阿文/Desktop/js.html",
+		"/C/Users/白阿文/Desktop/(1).css",
+		"/E/.git/description",
 		"/E/个人网站设计/CNAME",
 		"/E/个人网站设计/php/数据库连接.php",
 		"/D/wamp/wampmanager.tpl",
@@ -203,7 +228,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -238,97 +263,63 @@
 	[
 		{
 			"path": "E:\\个人网站设计"
-		},
-		{
-			"path": "E:\\.git"
 		}
 	],
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/白阿文/Desktop/(1).css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 74974,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								470,
-								470
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/白阿文/Desktop/js.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1074,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 35.3333333333,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1395,
+						"buffer_size": 2327,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								174,
-								174
+								999,
+								999
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "HTML文件/message.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -338,35 +329,35 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/E/.git/description",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "HTML文件/myfamily.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 73,
+						"buffer_size": 486,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								416,
+								416
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "css文件/universal.css",
 					"semi_transient": false,
 					"settings":
@@ -398,11 +389,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"layout":
 	{
@@ -435,7 +426,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 50.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
