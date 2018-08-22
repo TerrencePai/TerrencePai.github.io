@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>留言主页</title>
+</head>
+<body>
+<div>
+	<form  action="php/留言.php" method="post" target="_blank">
+	<caption>留言板</caption>
+	<table>
+		<tr><td>您的身份是：</td>
+<td><select id="visiter" name="访客身份">
+	<option value="亲人">亲人</option>
+	<option value="朋友">朋友</option>
+	<option value="陌生人" selected="">陌生人</option>
+	<option value="其他" >其他</option>
+</select>
+		</td></tr>
+
+	<tr><td>亲，可以知道你的的名字吗?</td>
+	<td><input type="text" id="name" name="name" value="你的名字"><td></tr>
+
+		<tr><td>你的邮箱呢？</td>
+		<td><input type="email" name="email"></td></tr>
+
+<tr>
+	<textarea id="message" name="message" value="亲，有什么好的建议吗？" vrows="5" cols="40"></textarea> 
+	</tr>
+	
+	<tr>
+		<td>吐槽下我的网站吧！</tr>
+        <td>
+        	<input type="radio" name="radio">差评
+        	<input type="radio" name="radio">
+        	勉强
+        	<input type="radio" name="radio">
+        	能看
+        	<input type="radio" name="radio">
+        	有点意思
+        	<input type="radio" name="radio">
+        	还行
+        	<input type="radio" name="radio">
+        	不错哟
+        	<input type="radio" name="radio">
+        	漂亮
+        	<input type="radio" name="radio">
+        	大神
+        </td>
+        </tr>
+	
+	<tr>
+		<td><input type="submit" name="submit" value="发送"></td>
+	</tr>
+	
+	</table>
+</form>
+</div>
+</body>
+</html>
