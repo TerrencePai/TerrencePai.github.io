@@ -3,57 +3,93 @@
 <head>
 	<meta charset="utf-8">
 	<title>留言主页</title>
+	<script type="text/javascript">
+		function load(){
+		var xhr;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xhr=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xhr=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xhr.onreadystatechange=function()
+  {
+  if (xhr.readyState==4 && xhr.status==200)
+    {
+    document.getElementById("myDiv").innerHTML=xhr.responseText;
+    }
+  }
+xhr.open("post","/ajax/demo_get.asp",true);
+xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xhr.send("fname=Bill&lname=Gates");
+
+}
+	</script>
 </head>
 <body>
 <div>
 	<form  action="php/留言.php" method="post" target="_blank">
-	<caption>留言板</caption>
-	<table>
-		<tr><td>您的身份是：</td>
-<td><select id="visiter" name="访客身份">
+<fieldset>
+<legend>留下你的足迹吧！</legend>
+<fieldset>
+	<legend>访客详情</legend>
+	<label>您的身份是：
+			<select id="visiter" name="访客身份"  size="1" >
 	<option value="亲人">亲人</option>
 	<option value="朋友">朋友</option>
-	<option value="陌生人" selected="">陌生人</option>
+	<option value="陌生人" selected="selected">陌生人</option>
 	<option value="其他" >其他</option>
-</select>
-		</td></tr>
+    </select>
+</label><br>
+<label>亲，可以知道你的的名字吗?<input type="text" name="name" value="么么哒" required="required"></label><br>
+	<label>你的邮箱呢？<input type="email" name="email" required="required"></label><br>
+</fieldset>
 
-	<tr><td>亲，可以知道你的的名字吗?</td>
-	<td><input type="text" id="name" name="name" value="你的名字"><td></tr>
 
-		<tr><td>你的邮箱呢？</td>
-		<td><input type="email" name="email"></td></tr>
+<fieldset>
+	<legend>吐槽</legend>
+	
 
-<tr>
-	<textarea id="message" name="message" value="亲，有什么好的建议吗？" vrows="5" cols="40"></textarea> 
-	</tr>
+
 	
-	<tr>
-		<td>吐槽下我的网站吧！</tr>
-        <td>
-        	<input type="radio" name="radio">差评
-        	<input type="radio" name="radio">
-        	勉强
-        	<input type="radio" name="radio">
-        	能看
-        	<input type="radio" name="radio">
-        	有点意思
-        	<input type="radio" name="radio">
-        	还行
-        	<input type="radio" name="radio">
-        	不错哟
-        	<input type="radio" name="radio">
-        	漂亮
-        	<input type="radio" name="radio">
-        	大神
-        </td>
-        </tr>
-	
-	<tr>
-		<td><input type="submit" name="submit" value="发送"></td>
-	</tr>
-	
-	</table>
+<label>	吐槽下我的网站吧！  
+        	<input id="bad" type="radio" name="radio">
+        	<label for="bad">差评</label>
+        	<input id="qualified" type="radio" name="radio">
+        	<label for="qualified">勉强</label>
+        	<input id="ok" type="radio" name="radio">
+        	<label for="ok">能看</label>
+        	<input id="interesting" type="radio" name="radio">
+        	<label for="interesting">有点意思</label>
+        	<input id="haixing" type="radio" name="radio"  checked="checked">
+        	<label for="haixing">还行</label>
+        	<input id="bucuoyo" type="radio" name="radio">
+        	<label for="bucuoyo">不错哟</label>
+        	<input id="good" type="radio" name="radio">
+        	<label for="good">漂亮</label>
+        	<input id="perfect" type="radio" name="radio">
+        <label for="perfect">大神</label>
+ </label><br>
+
+
+<label>快向我吐槽吧！<textarea id="message" name="message" value="亲" vrows="4" vcols="40" required="required"></textarea> 
+	</label>
+	<br>
+
+<label>
+以后想不想看看我的网站新动态呢？
+<input id="yes" type="radio" name="yes" checked="checked"><label for="yes">好呀</label>
+<input id="no" type="radio" name="no"><label for="no">才不要</label>
+<input id="maybe" type="radio" name="maybe"><label for="maybe">也许吧</label>	
+</label>
+</fieldset>
+<label><input type="checkbox" name="update" checked="checked">网站有更新给我发邮件哟</label><br>
+<input type="submit" name="submit" onclick="load()" value="发送"><input type="reset" name="reset" value="取消">
+</fieldset>
+
+
 </form>
 </div>
 </body>
