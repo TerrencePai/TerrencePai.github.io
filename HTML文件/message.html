@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>留言主页</title>
 	<script type="text/javascript">
+		function success(){alert("收到了呢！")}
 		function load(){
 		var xhr;
 if (window.XMLHttpRequest)
@@ -30,7 +31,7 @@ xhr.send("fname=Bill&lname=Gates");
 </head>
 <body>
 <div>
-	<form  action="php/留言.php" method="post" target="_blank" enctype="multipart/form-data" onsubmit="return false">
+	<form  action="php/留言.php" method="post" target="_blank" enctype="multipart/form-data" onsubmit="success()">
 <fieldset>
 <legend>留下你的足迹吧！</legend>
 <fieldset>
@@ -46,7 +47,6 @@ xhr.send("fname=Bill&lname=Gates");
 <label>亲，可以知道你的的名字吗?<input type="text" name="name" placeholder="么么哒" required="required"></label><br>
 	<label>你的邮箱呢？<input type="email" name="email" required="required"></label><br>
 </fieldset>
-
 
 <fieldset>
 	<legend>吐槽</legend>
@@ -80,13 +80,13 @@ xhr.send("fname=Bill&lname=Gates");
 
 <label>
 以后想不想看看我的网站新动态呢？
-<input id="yes" type="radio" name="yes" checked="checked"><label for="yes">好呀</label>
-<input id="no" type="radio" name="no"><label for="no">才不要</label>
-<input id="maybe" type="radio" name="maybe"><label for="maybe">也许吧</label>	
+<input id="yes" type="radio" name="see" checked="checked"><label for="yes">好呀</label>
+<input id="no" type="radio" name="see"><label for="no">才不要</label>
+<input id="maybe" type="radio" name="see"><label for="maybe">也许吧</label>	
 </label>
 </fieldset>
 <label><input type="checkbox" name="update" checked="checked">网站有更新给我发邮件哟</label><br>
-<input type="submit" name="submit" onclick="load()" value="发送"><input type="reset" name="reset" value="取消">
+<input type="submit" name="submit"  value="发送"><input type="reset" name="reset" value="取消">
 </fieldset>
 
 </form>
