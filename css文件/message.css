@@ -1,0 +1,8 @@
+html,body{
+	height: 100%;
+}
+div{
+	background-color: hsla(178,65%,75%,0.3);
+resize: both;
+overflow:auto;
+}
