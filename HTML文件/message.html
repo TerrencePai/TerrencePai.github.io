@@ -30,7 +30,7 @@ xhr.send("fname=Bill&lname=Gates");
 </head>
 <body>
 <div>
-	<form  action="php/留言.php" method="post" target="_blank">
+	<form  action="php/留言.php" method="post" target="_blank" enctype="multipart/form-data" onsubmit="return false">
 <fieldset>
 <legend>留下你的足迹吧！</legend>
 <fieldset>
@@ -43,7 +43,7 @@ xhr.send("fname=Bill&lname=Gates");
 	<option value="其他" >其他</option>
     </select>
 </label><br>
-<label>亲，可以知道你的的名字吗?<input type="text" name="name" value="么么哒" required="required"></label><br>
+<label>亲，可以知道你的的名字吗?<input type="text" name="name" placeholder="么么哒" required="required"></label><br>
 	<label>你的邮箱呢？<input type="email" name="email" required="required"></label><br>
 </fieldset>
 
@@ -88,7 +88,6 @@ xhr.send("fname=Bill&lname=Gates");
 <label><input type="checkbox" name="update" checked="checked">网站有更新给我发邮件哟</label><br>
 <input type="submit" name="submit" onclick="load()" value="发送"><input type="reset" name="reset" value="取消">
 </fieldset>
-
 
 </form>
 </div>
