@@ -8,10 +8,10 @@
 </head>
 <body>
 <div>
-	<form  action="php/message.php" method="post" target="_blank" enctype="multipart/form-data" onsubmit="success()">
-<fieldset>
+	<form id="message_form" action="php/message.php" method="post" target="_blank" enctype="multipart/form-data" onsubmit="success()">
+<fieldset class="total">
 <legend>留下你的足迹吧！</legend>
-<fieldset>
+<fieldset class="branch branch1">
 	<legend>访客详情</legend>
 	<label>您的身份是：
 			<select id="visiter" name="访客身份"  size="1" >
@@ -21,17 +21,14 @@
 	<option value="其他" >其他</option>
     </select>
 </label><br>
-<label>亲，可以知道你的的名字吗?<input type="text" name="name" placeholder="么么哒" required="required"></label><br>
-	<label>你的邮箱呢？<input type="email" name="email" placeholder="example@example.com" required="required"></label><br>
+<label>亲，可以知道你的的名字吗?<br><input type="text" name="name" placeholder="么么哒" required="required"></label><br>
+	<label>你的邮箱呢？ <br> <input type="email" name="email" placeholder="example@example.com" required="required"></label><br>
 </fieldset>
 
-<fieldset>
+<fieldset class="branch branch2">
 	<legend>吐槽</legend>
 	
-
-
-	
-<label>	吐槽下我的网站吧！  
+<label>	吐槽下我的网站吧！ <br> 
         	<input id="bad" type="radio" name="radio">
         	<label for="bad">差评</label>
         	<input id="qualified" type="radio" name="radio">
@@ -54,7 +51,7 @@
 <label>快向我吐槽吧！<textarea id="message" name="message" placeholder="网页很不友好呀" vrows="4" vcols="40" required="required"></textarea> 
 	</label>
 	<br>
-
+<div class="wall"></div>
 <label>
 以后想不想看看我的网站新动态呢？
 <input id="yes" type="radio" name="see" checked="checked"><label for="yes">好呀</label>
@@ -62,10 +59,11 @@
 <input id="maybe" type="radio" name="see"><label for="maybe">也许吧</label>	
 </label>
 </fieldset>
-<label><input type="checkbox" name="update" checked="checked">网站有更新给我发邮件哟</label><br>
-<input type="submit" name="submit"  value="发送"><input type="reset" name="reset" value="取消">
+<label class="update"><input type="checkbox" name="update" checked="checked">网站有更新给我发邮件哟</label><br>
 </fieldset>
 
+<button type="submit" form="message_form" >提交</button>
+<button type="reset" form="message_form" >取消</button>
 </form>
 </div>
 </body>

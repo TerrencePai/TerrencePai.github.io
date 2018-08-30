@@ -3,6 +3,33 @@ html,body{
 }
 div{
 	background-color: hsla(178,65%,75%,0.3);
+/*用户可以调节大小*/
 resize: both;
 overflow:auto;
+color: orange;
+}
+.wall{
+	float: left;
+}
+.total{
+	width: 100%;
+	font-style:initial;
+border:1px dotted red;
+}
+.branch{
+	float: left;
+border:1px dashed skyblue;
+}
+.update{
+float: left;
+}
+.branch2{
+	width: 60%;
+}
+textarea,input,option{
+	font-weight: bold;
+	font-style: italic;
+}
+button{
+	font-style: italic;
 }
