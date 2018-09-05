@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" herf="../xsl文件/text.xsl" ?>	
+<!DOCTYPE note [
+  <!ELEMENT note (to,from,heading,body)>
+  <!ELEMENT to      (#PCDATA)>
+  <!ELEMENT from    (#PCDATA)>
+  <!ELEMENT heading (#PCDATA)>
+  <!ELEMENT body    (#PCDATA)>
+]>
+<note>
+<to>George</to> 
+<from>John</from> 
+<heading>Reminder</heading> 
+<body>Don't forget the meeting!</body> 
+</note>
