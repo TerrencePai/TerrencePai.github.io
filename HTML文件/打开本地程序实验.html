@@ -1,0 +1,36 @@
+
+<html>
+
+<head>
+
+    <title>Test Page</title>
+
+<script type="text/javascript" language="jscript">
+
+function Run(strPath)
+
+{
+
+var objShell = new ActiveXObject("wscript.shell");
+
+objShell.run("notepad.exe") ;
+
+      //objShell.run("notepad d:/aa.docx");  
+
+//	  objShell.run("D:\\aa.docx");  
+
+objShell = null;
+
+}
+
+</script>
+
+</head>
+
+<body>   
+
+   <BUTTON class=button onclick="Run()" style="right:0; bottom:0;">确定</BUTTON>
+
+</body>
+
+</html>

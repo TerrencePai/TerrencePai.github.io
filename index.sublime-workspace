@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"fs",
+				"font-size\tproperty"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"td",
+				"text-decoration\tproperty"
+			],
+			[
+				"pa",
+				"padding-right\tproperty"
+			],
+			[
+				"messa",
+				"message_form"
+			],
+			[
+				"bc",
+				"border-color\tproperty"
+			],
+			[
+				"bgc",
+				"background-color\tproperty"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"r",
+				"required\tAttr"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"P",
+				"post"
+			],
+			[
 				"bac",
 				"background-position\tproperty"
 			],
@@ -36,10 +80,6 @@
 				"background\tproperty"
 			],
 			[
-				"bc",
-				"background-color\tproperty"
-			],
-			[
 				"a",
 				"action\tAttr"
 			],
@@ -70,10 +110,6 @@
 			[
 				"F",
 				"F47D31"
-			],
-			[
-				"fs",
-				"font-size\tproperty"
 			],
 			[
 				"ta",
@@ -136,70 +172,42 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html >\n<head >\n\t<!-- style=\"background-color: hsla(178,65%,75%,0.3); -->\n\t<meta name=\"author\" content=\"白阿文\"/>\n\t<meta name=\"revised\" content=\"Terrence Pai,22/8/18\" />\n\t<meta name=\"generator\" content=\"Sublime Text\" />\n\t<meta name=\"description\" content=\"白阿文的个人网站\"/>\n\t<meta name=\"keywords\" content=\"白阿文，TerrencePai，个人网站，前端开发，网站制作\"/>\n<meta http-equiv=\"Content-type\"\tcontent=\"text/html\";charset=\"utf-8\"/>\n<!-- 网站域名更新时重定向域名 -->\n<!-- <meta http-equiv=\"Refresh\"\tcontent=\"5;url=https://terrencepai.github.io\"/> -->\n\t<title>TerrencePai的个人主页</title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"universal\">\n\t<script type=\"text/javascript\">\n\t\tfunction init(){\n\t\t\t// var dbConnect=indexedDB.open()\n\t\t}\n\t</script>\n</head>\n<body onload=\"init();\">\n<div id=\"text-shadow-box\">\n<div class=\"wall\">\n\t<p id=\"text\">阿文主页</p>\n\t<div></div>\n</div>\n<div id=\"spotlight\"><a href=\"index.html\">TerrencePai Home</a></div>\n<div id=\"cat\"><img src=\"picture/cat.jpg\"></div>\n</div>\n<hr/>\n<p>\n\t看看我可爱的<a href=\"HTML文件/myfamily.html\" target=\"_blank\">亲人们</a>吧！\n</p>\n<hr/>\n<div>\n<p>\n\t亲，有木有什么想悄悄和我说的呢？快给我\n\t<a href=\"HTML文件/message.html\" target=\"_blank\">留言</a>\n\t吧！\n</p>\n</div>\n\n</body>\n</html>",
-			"file": "/C/Users/白阿文/Desktop/xiangmu/index.html",
-			"file_size": 2618,
-			"file_write_time": 131794237371340615,
-			"settings":
-			{
-				"buffer_size": 1162,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "html{}\nbody{}",
-			"file": "/C/Users/白阿文/Desktop/xiangmu/css文件/style.css",
-			"file_size": 0,
-			"file_write_time": 131793379916889855,
-			"settings":
-			{
-				"buffer_size": 13,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html >\n<head >\n\t<!-- style=\"background-color: hsla(178,65%,75%,0.3); -->\n\t<meta name=\"author\" content=\"白阿文\"/>\n\t<meta name=\"revised\" content=\"Terrence Pai,22/8/18\" />\n\t<meta name=\"generator\" content=\"Sublime Text\" />\n\t<meta name=\"description\" content=\"白阿文的个人网站\"/>\n\t<meta name=\"keywords\" content=\"白阿文，TerrencePai，个人网站，前端开发，网站制作\"/>\n<meta http-equiv=\"Content-type\"\tcontent=\"text/html\";charset=\"utf-8\"/>\n<!-- 网站域名更新时重定向域名 -->\n<!-- <meta http-equiv=\"Refresh\"\tcontent=\"5;url=https://terrencepai.github.io\"/> -->\n\t<title>TerrencePai的个人主页</title>\n\t<style type=\"text/css\">\n\tbody{\n\t\tpadding: 0px;\n\t\tmargin: 0px;\n\t\tbackground-image: url(picture/background.jpg);\n\t\tbackground-attachment: fixed;\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: center;\n\t}\n\t#text-shadow-box{\n\t\tposition: relative;\n\t\twidth: 598px;\n\t\theight: 406px;\n\t\tbackground:#666;\n\t\toverflow: hidden;\n\t\tborder: #333 1px solid; \n\t}\n\t#text-shadow-box div.wall{\n\t\tposition: absolute;\n\t\twidth: 100%;\n\t\ttop: 175px;\n\t\tleft: 0px;\n\t}\n\t#text{\n\t\ttext-align: center;\n\t\tline-height: 0.5em;\n\tmargin: 0px;\nfont-family: helvetica,arial,sans-serif;\nheight: 1px;\ncolor: #999;\nfont-size: 80px;\nfont-weight: bold;\ntext-shadow: 5px -5px 16px #000;\n\t}\n\tdiv.wall div{\n\t\tposition: absolute;\n\t\twidth: 100%;\n\t\theight: 300px;\n\t\ttop: 42px;\n\t\tleft: 0px;\n\t\tbackground: #999;\n\t}\n\t#spotlight{\nposition: absolute;\nwidth: 100%;\nheight: 100%;\ntop: 0px;\nleft: 0px;\nbackground: url(picture/background.jpg) center -300px;\nfont-size: 12px;\n}\n#spotlight a{\n\tcolor: #ccc;\n\ttext-decoration: none;\n\tposition: absolute;\n\tleft: 45%;\n\ttop: 58%;\n\tfloat: left;\n\ttext-shadow: 1px 1px #999,-1px -1px #333;\n}\n#cat {\n\tposition: absolute;\n\ttop: 130px;\n\tleft: 260px;\n\tz-index: 1000;\n\topacity: 0.5;\n}\n#cat img {\n\twidth: 80px;\n}\n\t\tform{\n\n\t\t}\n\t</style>\n\t<script type=\"text/javascript\">\n\t\tfunction init(){\n\t\t\t// var dbConnect=indexedDB.open()\n\t\t}\n\t</script>\n</head>\n<body onload=\"init();\">\n<div id=\"text-shadow-box\">\n<div class=\"wall\">\n\t<p id=\"text\">阿文主页</p>\n\t<div></div>\n</div>\n<div id=\"spotlight\"><a href=\"index.html\">TerrencePai Home</a></div>\n<div id=\"cat\"><img src=\"picture/cat.jpg\"></div>\n</div>\n<hr>\n<p>\n\t看看我可爱的<a href=\"HTML文件/myfamily.html\" target=\"_blank\">亲人们</a>吧！\n</p>\n<hr/>\n<div>\n<p>\n\t亲，有木有什么想悄悄和我说的呢？快给我\n\t<a href=\"HTML文件/message.html\" target=\"_blank\">留言</a>\n\t吧！\n</p>\n</div>\n</body>\n</html>",
 			"file": "index.html",
-			"file_size": 2615,
-			"file_write_time": 131794237785451208,
 			"settings":
 			{
-				"buffer_size": 2322,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "HTML文件/message.html",
-			"settings":
-			{
-				"buffer_size": 1308,
+				"buffer_size": 1471,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>亲人简介</title>\n\t<style type=\"text/css\">\n\t\tfigure{\n\t\t\theight: 50px;\n\t\t\twidth: 33%;\n\t\t}\n\t</style>\n</head>\n<body>\n\n<figure>\n  <figcaption>妹妹白阿香</figcaption>\n  <img src=\"../picture/sister1.jpg\" alt=\"妹妹的照片\"  /></figure>\n  <figure>\n  <figcaption>妹妹白阿香</figcaption>\n  <img src=\"../picture/sister2.jpg\" alt=\"妹妹的照片\"  /></figure>\n  <figure>\n  <figcaption>妹妹白阿香</figcaption>\n  <!-- <img s=- c=\"../picture/sister3.jpg\" alt=\"妹妹的照片\" /></figure> -->\n</body>\n</html>",
-			"file": "HTML文件/myfamily.html",
-			"file_size": 566,
-			"file_write_time": 131794079092407186,
-			"settings":
-			{
-				"buffer_size": 486,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css文件/universal.css",
-			"settings":
-			{
-				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Java/Ant.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/JavaC.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Java/Ant.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -232,14 +240,39 @@
 		"/E/个人网站设计",
 		"/E/个人网站设计/css文件",
 		"/E/个人网站设计/HTML文件",
-		"/C/Users/白阿文/Desktop/xiangmu",
-		"/C/Users/白阿文/Desktop/xiangmu/css文件",
-		"/C/Users/白阿文/Desktop/xiangmu/HTML文件"
+		"/E/个人网站设计/JavaScript文件",
+		"/E/个人网站设计/java文件",
+		"/E/个人网站设计/xml文件"
 	],
 	"file_history":
 	[
+		"/E/个人网站设计/java文件/helloworld.java",
+		"/E/个人网站设计/java文件/helloworld.class",
+		"/E/个人网站设计/java文件/hellworld.java",
+		"/C/Users/白阿文/AppData/Roaming/Sublime Text 3/Packages/User/JavaC.sublime-build",
+		"/C/Users/白阿文/AppData/Local/Temp/Rar$DIa4556.23565/JavaC.sublime-build",
+		"/C/Users/白阿文/AppData/Local/Temp/Rar$DIa14360.4833/JavaC.sublime-build",
+		"/C/Users/白阿文/AppData/Local/Temp/Rar$DIa14360.47622/JavaC.sublime-build",
+		"/D/Java/jdk-10.0.2/bin/runJava.bat",
+		"/E/hellworld.java",
+		"/C/Users/白阿文/AppData/Local/Temp/Rar$DIa6280.24971/JavaC.sublime-build",
+		"/C/Users/白阿文/AppData/Roaming/Sublime Text 3/Packages/User/untitled.sublime-build",
+		"/E/个人网站设计/HTML文件/打开本地程序实验.html",
+		"/E/个人网站设计/css文件/universal.css",
+		"/E/个人网站设计/HTML文件/message.html",
 		"/E/个人网站设计/index.html",
+		"/E/个人网站设计/css文件/index.css",
+		"/E/个人网站设计/xml文件/test.xml",
+		"/E/个人网站设计/xsl文件/test.xsl",
 		"/E/个人网站设计/HTML文件/myfamily.html",
+		"/E/个人网站设计/JavaScript文件/test.js",
+		"/E/个人网站设计/css文件/message.css",
+		"/E/个人网站设计/php/message.php",
+		"/E/个人网站设计/JavaScript文件/message.js",
+		"/C/Users/白阿文/Desktop/xiangmu/css文件/style.css",
+		"/C/Users/白阿文/Desktop/xiangmu/index.html",
+		"/E/个人网站设计/php/留言.php",
+		"/D/wamp/www/mywebsite/index.html",
 		"/C/Users/白阿文/Desktop/js.html",
 		"/C/Users/白阿文/Desktop/(1).css",
 		"/E/.git/description",
@@ -259,7 +292,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 116.0,
 		"where_history":
 		[
 		]
@@ -269,6 +302,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"}",
+			"3",
 			"http://localhost",
 			">",
 			"hello"
@@ -290,88 +325,29 @@
 	[
 		{
 			"path": "E:\\个人网站设计"
-		},
-		{
-			"path": "C:\\Users\\白阿文\\Desktop\\xiangmu"
 		}
 	],
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/白阿文/Desktop/xiangmu/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								611,
-								611
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/白阿文/Desktop/xiangmu/css文件/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13,
-								13
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2322,
+						"buffer_size": 1471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1773,
-								1773
+								1019,
+								1019
 							]
 						],
 						"settings":
@@ -380,94 +356,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1379.0,
+						"translation.y": 759.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "HTML文件/message.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1308,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16,
-								16
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "HTML文件/myfamily.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								416,
-								416
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css文件/universal.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -504,6 +396,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 39.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
