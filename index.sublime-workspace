@@ -179,6 +179,25 @@
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "HTML文件/title.html",
+			"settings":
+			{
+				"buffer_size": 264,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<span style=\"font-family:SimSun;font-size:14px;\">@"
+			}
+		},
+		{
+			"file": "HTML文件/myfamily.html",
+			"settings":
+			{
+				"buffer_size": 660,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "Packages/Java/Ant.sublime-build",
@@ -242,7 +261,7 @@
 		"/E/个人网站设计/HTML文件",
 		"/E/个人网站设计/JavaScript文件",
 		"/E/个人网站设计/java文件",
-		"/E/个人网站设计/xml文件"
+		"/E/个人网站设计/xsl文件"
 	],
 	"file_history":
 	[
@@ -330,7 +349,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -359,7 +378,64 @@
 						"translation.y": 759.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "HTML文件/title.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<span style=\"font-family:SimSun;font-size:14px;\">@",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "HTML文件/myfamily.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
